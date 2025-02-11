@@ -9,3 +9,9 @@ for (let i = 1; i <=200; i++){
     }
     console.log(i);
 }
+let friends = ["abul","kabul"];
+
+for (let i = 0; i <friends.length; i++){
+    
+    console.log(friends[i]);
+}
