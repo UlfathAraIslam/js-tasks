@@ -9,4 +9,6 @@ display the final array as output
 let touristDestinations = ["osaka","hokkaido","nikki"];
 touristDestinations.push("tokyo");
 touristDestinations.push("ashikaga","sky tree")
+touristDestinations.pop();
+touristDestinations.pop();
 console.log(touristDestinations);
