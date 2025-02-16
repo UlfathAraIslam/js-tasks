@@ -23,15 +23,6 @@ const tasks = [
 '৪) মডিউল শেষ হলে পুরা মডিউল নিজে নিজে প্রাকটিস করো ',
 
 ]
-
-for(let i = 0;i <tasks.length; i++){
-    console.log(tasks[i]);
-}
-let canUnderstand = false;
-if(!canUnderstand){
-    console.log('৫)সাপোর্ট সেশনে জয়েন করো');
-}
-/*
 let i = 0;
 while(i <tasks.length){
     console.log(tasks[i]);
@@ -41,4 +32,3 @@ let canUnderstand = false;
 if(!canUnderstand){
     console.log('৫)সাপোর্ট সেশনে জয়েন করো');
 }
-    */
