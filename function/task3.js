@@ -6,16 +6,14 @@
 
 function sendProposal(heroBio,girlBio){
     if(typeof heroBio !== 'object' || typeof girlBio !=='object' || Array.isArray(heroBio) || Array.isArray(girlBio)){
-        console.log('invalid input'); 
-        return;
+        return('invalid input'); 
 
     }
     if(heroBio.district===girlBio.district){
-        console.log('proposal done');
-        return;
+        return('proposal done');
     }
 
-    console.log('proposal cancel');
+    return('proposal cancel');
 }
 
 const heroBio = {
@@ -24,6 +22,8 @@ const heroBio = {
 }
 const girlBio = {
     fullName:'henna',
-    district:'ctg'
+    district:'dhaka'
 }
-sendProposal([],girlBio)
+
+const statusOfProposal = sendProposal(heroBio,girlBio);
+console.log(statusOfProposal);
