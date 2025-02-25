@@ -13,12 +13,12 @@ function  calculateSleepTime( times ) {
             totalSeconds += time;
         }
     }
-    let hours = Math.floor(totalSeconds/3600);
+    let hour = Math.floor(totalSeconds/3600);
     let remainingSeconds = totalSeconds % 3600;
-    let minutes = Math.floor(remainingSeconds/60);
-    let seconds = remainingSeconds % 60;
-    return {hours,minutes,seconds}
+    let minute = Math.floor(remainingSeconds/60);
+    let second = remainingSeconds % 60;
+    return {hour,minute,second}
 }
 
-const result1 = calculateSleepTime([100, 3800, "90" ])
+const result1 = calculateSleepTime([100, 3800])
 console.log(result1);
